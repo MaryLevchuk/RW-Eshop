@@ -1,8 +1,7 @@
-$ cat .gitignore
+# $ cat .gitignore
 packages/
 .vs/
 Temporary*
 phantomjs*
-*.cache
-*Designer*
+*.[Cc]ache
 *README*
