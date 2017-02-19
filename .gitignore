@@ -1,0 +1,8 @@
+$ cat .gitignore
+packages/
+.vs/
+Temporary*
+phantomjs*
+*.cache
+*Designer*
+*README*
