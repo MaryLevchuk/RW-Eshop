@@ -63,18 +63,27 @@ namespace Tests {
         /// <summary>
         ///   Looks up a localized string similar to /episerver.
         /// </summary>
-        internal static string EpiserverUrl {
+        internal static string EpiserverPage {
             get {
-                return ResourceManager.GetString("EpiserverUrl", resourceCulture);
+                return ResourceManager.GetString("EpiserverPage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to /shop.
         /// </summary>
         internal static string EshopUrl {
             get {
                 return ResourceManager.GetString("EshopUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to http://test.rockwool.com/en.
+        /// </summary>
+        internal static string Frontpage {
+            get {
+                return ResourceManager.GetString("Frontpage", resourceCulture);
             }
         }
         
@@ -88,7 +97,7 @@ namespace Tests {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://test.rockwool.com.
+        ///   Looks up a localized string similar to http://test.rockwool.com.
         /// </summary>
         internal static string TestEnv {
             get {

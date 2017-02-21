@@ -14,8 +14,9 @@ namespace Tests
 {
     public abstract class TestsSetup
     {
-        public IWebDriver Driver;
+        public IWebDriver Driver; //{ get; private set; }
 
+       
         public void InitializeDriver(string driverName)
         {
             switch (driverName)
@@ -39,11 +40,6 @@ namespace Tests
         {
             InitializeDriver(browser);
             Driver.Manage().Window.Maximize();
-        }
-
-        public void OpenPage(string url)
-        {
-            Driver.Navigate().GoToUrl(url);
         }
 
         [OneTimeTearDown]
