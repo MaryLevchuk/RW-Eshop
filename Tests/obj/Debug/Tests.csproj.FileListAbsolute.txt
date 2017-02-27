@@ -21,3 +21,9 @@ K:\Source\RW E-Shop\Tests\bin\Debug\WebDriver.xml
 K:\Source\RW E-Shop\Tests\bin\Debug\WebDriver.Support.xml
 K:\Source\RW E-Shop\Tests\obj\Debug\Tests.dll
 K:\Source\RW E-Shop\Tests\obj\Debug\Tests.pdb
+K:\Source\RW E-Shop\Tests\bin\Debug\FluentAssertions.Core.dll
+K:\Source\RW E-Shop\Tests\bin\Debug\FluentAssertions.dll
+K:\Source\RW E-Shop\Tests\bin\Debug\FluentAssertions.pdb
+K:\Source\RW E-Shop\Tests\bin\Debug\FluentAssertions.xml
+K:\Source\RW E-Shop\Tests\bin\Debug\FluentAssertions.Core.pdb
+K:\Source\RW E-Shop\Tests\bin\Debug\FluentAssertions.Core.xml

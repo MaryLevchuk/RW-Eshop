@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium;
@@ -36,15 +37,19 @@ namespace Tests
             }
         }
 
+        
         public void OpenBrowser(string browser)
         {
             InitializeDriver(browser);
             Driver.Manage().Window.Maximize();
         }
 
+        
+
         [OneTimeTearDown]
         public void CloseBrowser()
         {
+            Thread.Sleep(500);
             Driver.Quit();
         }
     }
